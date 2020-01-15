@@ -1,0 +1,13 @@
+#include "stdio.h"
+#include "strings.h"
+int main(void){
+    const float a = 3.785;
+    const float b = 1.609;
+    float mileage,oil;
+    printf("input your mileage: ");
+    scanf("%f",&mileage);
+    printf("input your oil: ");
+    scanf("%f",&oil);  
+    printf("%.1f mileage every gallons oil\n",mileage/oil);
+    printf("%.1f hundred km every rise oil\n",100*mileage*b/(oil*a));
+}
