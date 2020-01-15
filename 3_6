@@ -1,0 +1,11 @@
+#include "stdio.h"
+void main(void){
+    float i=3e-23;
+    float kuatuo;
+    printf("please tell me the water's kuatuo");
+    scanf("%f",&kuatuo);
+    printf("%f\n",kuatuo);
+    printf("%f\n",i);
+    printf("your water has %e fenz",kuatuo*950*i);
+
+}
