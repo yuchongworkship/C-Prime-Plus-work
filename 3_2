@@ -1,0 +1,8 @@
+#include "stdio.h"
+int main (void){
+    char i;
+    printf("please give me a ascii:");
+    scanf("%d",&i);
+    printf("%c",i);
+    
+}
