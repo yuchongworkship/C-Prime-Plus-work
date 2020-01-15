@@ -1,0 +1,9 @@
+#include "stdio.h"
+void main(void){
+    const float i = 3.156e7;
+    float j;
+    printf("please tell me your years:");
+    scanf("%f",&j);
+    printf("you have alived %.2f s",j*i);
+
+}
