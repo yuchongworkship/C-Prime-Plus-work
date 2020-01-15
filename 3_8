@@ -1,0 +1,7 @@
+#include "stdio.h"
+int main (void){
+    int i;
+    printf("plear give me your pintuo :");
+    scanf("%d",&i);
+    printf("cups: %d\nangs: %d\nshao: %d\ntea shao: %d\n",i,i*8,i*8*2,i*8*2*3);
+}
